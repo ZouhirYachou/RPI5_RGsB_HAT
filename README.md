@@ -28,4 +28,20 @@ A Raspberry Pi 5 HAT PCB that generates analog RGsB (RGB Sync on Green) using th
 ## Todo list
 - Improve with a buck converter integrated to the PCB design
 
-## Photos
+## Images
+
+3D Render of the latest version of the PCB
+<p align="center">
+  <img src="images/PCB_RPI_HAT_RGsB.png" width="600">
+</p>
+
+This below picture is using the previous version of the PCB with a Pi Pico for CSYNC https://github.com/mbt28/pico-csync-generator
+With the current design, CSYNC is integrated with the RPI5 PIO Hardware, no need to use an additional Pi Pico
+<p align="center">
+  <img src="images/PXL_20251115_114836545.jpg" width="600">
+</p>
+
+Display 400*240p resolution on OEM CID on a BMW E85/E86
+<p align="center">
+  <img src="images/PXL_20251115_114838423.jpg" width="600">
+</p>
