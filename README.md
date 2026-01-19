@@ -16,6 +16,9 @@ A Raspberry Pi 5 HAT PCB that generates analog RGsB (RGB Sync on Green) using th
 ## Getting started
 1. Install assembled PCB to RPI 5
 2. Run the rgsb_hat_setup.sh
+```
+curl -fsSLO https://raw.githubusercontent.com/ZouhirYachou/RPI5_RGsB_HAT/refs/heads/main/rgsb_hat_setup.sh && chmod +x rgsb_hat_setup.sh && ./rgsb_hat_setup.sh
+```
 3. Connect to supported display: This was designed for embedded 6.5 inches displays on BMW E series (E46, E85, E83 ...) where it only accepts analog RGsB signal at 400*240p resolution. 
 
 ## Safety / warnings
@@ -35,13 +38,19 @@ A Raspberry Pi 5 HAT PCB that generates analog RGsB (RGB Sync on Green) using th
   <img src="images/PCB_RPI_HAT_RGsB.png" width="600">
 </p>
 
-This below picture is using the previous version of the PCB with a Pi Pico for CSYNC https://github.com/mbt28/pico-csync-generator
+This below picture is using the previous version of the PCB with a Pi Pico for CSYNC https://github.com/mbt28/pico-csync-generator<br/>
 With the current design, CSYNC is integrated with the RPI5 PIO Hardware, no need to use an additional Pi Pico
 <p align="center">
   <img src="images/PXL_20251115_114836545.jpg" width="600">
 </p>
 
-Display 400*240p resolution on OEM CID on a BMW E85/E86
+Displays 400*240p resolution for the OEM CID on a BMW E85/E86
 <p align="center">
   <img src="images/PXL_20251115_114838423.jpg" width="600">
 </p>
+
+## Sources:
+- https://github.com/fenlogic/vga666
+- https://github.com/raspberrypi/utils.git
+- https://www.raspberrypi.com/news/how-we-added-interlaced-video-to-raspberry-pi-5/
+- https://www.e46fanatics.com/threads/bmw-on-board-monitor-without-navigation-unit.1303552
