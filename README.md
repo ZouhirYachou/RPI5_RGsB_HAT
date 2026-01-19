@@ -15,7 +15,7 @@ A Raspberry Pi 5 HAT PCB that generates analog RGsB (RGB Sync on Green) using th
 
 ## Repository contents
 - `hardware` Schematic, Gerber, BOM, Pick and place for PCB fabrication
-- `stls` 3d files to print your own case for this hat
+- `STLs` 3d files to print your own case for this hat
 - `rgsb_hat_setup.sh` Bash script to install requirements, CSYNC service and display configuration for 240p analog output
 
 
