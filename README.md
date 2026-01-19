@@ -49,7 +49,7 @@ Displays 400*240p resolution for the OEM CID on a BMW E85/E86
   <img src="images/PXL_20251115_114838423.jpg" width="600">
 </p>
 
-## Sources:
+## References
 - https://github.com/fenlogic/vga666
 - https://github.com/raspberrypi/utils.git
 - https://www.raspberrypi.com/news/how-we-added-interlaced-video-to-raspberry-pi-5/
