@@ -7,24 +7,46 @@ A Raspberry Pi 5 HAT PCB that generates analog RGsB (RGB Sync on Green) using th
 </p>
 
 
-## What it does
-- Outputs analog RGB from GPIO with RGB666 mode (PCB design inspired by the Passive VGA adapter 666 https://github.com/fenlogic/vga666)
+## Purpose / Features
+- Outputs analog RGB from GPIO with RGB666 mode (PCB design inspired by the passive VGA adapter 666 https://github.com/fenlogic/vga666)
 - Provides SOG (CSYNC generated from HSYNC and VSYNC thanks to the PIO Hardware RP1 on RPI5)
-- Only works with Raspberry Pi 5
 - Solder pads to install a 12V to 5V (3A Max) buck converter
   
 
 ## Repository contents
-- `hardware` – Schematic, Gerber, BOM, Pick and place
+- `hardware` Schematic, Gerber, BOM, Pick and place for PCB fabrication
+- `stls` 3d files to print your own case for this hat
 - `rgsb_hat_setup.sh` Bash script to install requirements, CSYNC service and display configuration for 240p analog output
 
+
 ## Getting started
-1. Install assembled PCB to RPI 5
-2. Run the rgsb_hat_setup.sh
+1. Install latest version of desktop Debian for RPI5
+2. Run the rgsb_hat_setup.sh script to install the requirements
 ```
 curl -fsSLO https://raw.githubusercontent.com/ZouhirYachou/RPI5_RGsB_HAT/refs/heads/main/rgsb_hat_setup.sh && chmod +x rgsb_hat_setup.sh && ./rgsb_hat_setup.sh
 ```
-3. Connect to supported display: This was designed for embedded 6.5 inches displays on BMW E series (E46, E85, E83 ...) where it only accepts analog RGsB signal at 400*240p resolution. 
+3. Install the assembled PCB to the RPI5
+4. Connect to supported display: This was designed for embedded 6.5 inches displays on BMW E series (E46, E85, E83 ...) where it only accepts analog RGsB signal at 400*240p resolution. 
+
+*I'm currently using a Raspberry Pi Compute module 5 with a Waveshare carrier board (CM5-to-Pi5-Adapter) as it has onboard audio output and input*
+
+
+## 3D Printed Case
+Provided STLs should be printed either with ABS or ASA to handle the heat from the RPI5<br/>
+It requires the following fasteners:
+| Fasteners     | Quantity |
+| ------------- |:-------------:|
+| M3*6mm     | 2     |
+| M3*20mm      | 2    |
+
+<p align="center">
+  <img src="images/PXL_20260119_203528116.jpg" width="600">
+</p>
+
+<p align="center">
+  <img src="images/PXL_20260119_224212335.jpg" width="600">
+</p>
+
 
 
 ## Safety / warnings
@@ -38,6 +60,7 @@ curl -fsSLO https://raw.githubusercontent.com/ZouhirYachou/RPI5_RGsB_HAT/refs/he
 
 ## Todo list
 - Improve with a buck converter integrated to the PCB design
+- Integrated audio output and mic input directly onto the PCB
 
 
 ## Images
