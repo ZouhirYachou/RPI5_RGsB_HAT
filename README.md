@@ -1,6 +1,8 @@
 # Raspberry Pi 5 RGsB HAT
 
-A Raspberry Pi 5 HAT PCB that generates analog RGsB (RGB Sync on Green) using the GPIO with RGB666 mode (VGA666).
+A Raspberry Pi 5 HAT PCB that generates analog RGsB (RGB Sync on Green) using the GPIO with RGB666 mode (VGA666).<br/>
+Meant to be used with BMW E series Nav systems (E46, E83, E85, E86)<br/>
+*Currently, it has only been tested on BMW E85/E86*
 
 <p align="center">
   <img src="images/PCB_RPI_HAT_RGsB.png" width="600">
@@ -49,18 +51,15 @@ It requires the following fasteners:
 
 
 
-## Safety / warnings
+## Safety / Warnings
 - With the buck converter, do not plug any other power source to the RPI5.
 - 75Ω termination should already be present on the display side.
-
-
-## Contributing
-- Any improvements on the design are welcome.
 
 
 ## Todo list
 - Improve with a buck converter integrated to the PCB design
 - Integrated audio output and mic input directly onto the PCB
+- Create a carrier board for the Raspberry Pi 5 CM5 module with all the features (DPI to Analog with ADV7125 instead ot using the passive resistor ladder, USB Audio output and input, integrated voltage regulator from DC 12V to 5V)
 
 
 ## Images
@@ -76,6 +75,10 @@ Displays 400*240p resolution for the OEM CID on a BMW E85/E86
 <p align="center">
   <img src="images/PXL_20251115_114838423.jpg" width="600">
 </p>
+
+
+## Contributing
+- Any improvements on the design are welcome.
 
 
 ## References
