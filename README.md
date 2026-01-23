@@ -5,7 +5,7 @@ Meant to be used with BMW E series Nav systems (E46, E83, E85, E86)<br/>
 *Currently, it has only been tested on BMW E85/E86*
 
 <p align="center">
-  <img src="images/PCB_RPI_HAT_RGsB.png" width="600">
+  <img src="images/PCB_RPI_HAT_RGsB.png" width="640">
 </p>
 
 
@@ -42,11 +42,11 @@ It requires the following fasteners:
 | M3*20mm      | 2    |
 
 <p align="center">
-  <img src="images/PXL_20260119_203528116.jpg" width="600">
+  <img src="images/PXL_20260119_203528116.jpg" width="640">
 </p>
 
 <p align="center">
-  <img src="images/PXL_20260119_224212335.jpg" width="600">
+  <img src="images/PXL_20260119_224212335.jpg" width="640">
 </p>
 
 
@@ -67,13 +67,13 @@ It requires the following fasteners:
 This below picture is using the previous version of the PCB with a Pi Pico for CSYNC https://github.com/mbt28/pico-csync-generator<br/>
 With the current design, CSYNC is integrated with the RPI5 PIO Hardware, no need to use an additional Pi Pico
 <p align="center">
-  <img src="images/PXL_20251115_114836545.jpg" width="600">
+  <img src="images/PXL_20251115_114836545.jpg" width="640">
 </p>
 
 
 Displays 400*240p resolution for the OEM CID on a BMW E85/E86
 <p align="center">
-  <img src="images/PXL_20251115_114838423.jpg" width="600">
+  <img src="images/PXL_20251115_114838423.jpg" width="640">
 </p>
 
 
