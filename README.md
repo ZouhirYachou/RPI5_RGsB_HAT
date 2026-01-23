@@ -57,9 +57,10 @@ It requires the following fasteners:
 
 
 ## Todo list
-- Improve with a buck converter integrated to the PCB design
+- Improve power delivery with a buck converter integrated to the PCB design
 - Integrated audio output and mic input directly onto the PCB
-- Create a carrier board for the Raspberry Pi 5 CM5 module with all the features (DPI to Analog with ADV7125 instead ot using the passive resistor ladder, USB Audio output and input, integrated voltage regulator from DC 12V to 5V)
+- Add GPIO input for automatic shutdown of the RPI, Reverse engaged, Parking brake engaged etc...
+- Create a carrier board for the Raspberry Pi 5 CM5 module with all the features (DPI to Analog with ADV7125 instead of using the passive resistor ladder, USB Audio output and input, integrated voltage regulator from DC 12V to 5V)
 
 
 ## Images
