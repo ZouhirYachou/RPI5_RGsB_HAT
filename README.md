@@ -5,7 +5,7 @@ Meant to be used with BMW E series Nav systems (E46, E83, E85, E86)<br/>
 *Currently, it has only been tested on BMW E85/E86*
 
 <p align="center">
-  <img src="images/PCB_RPI_HAT_RGsB.png" width="640">
+  <img src="images/PCB_RPI_HAT_RGsB.png" width="800">
 </p>
 
 
